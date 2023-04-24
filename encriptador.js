@@ -6,7 +6,7 @@ const $result = d.querySelector(".result");
 
 d.addEventListener("click",(e)=>{
     //e.preventDefault();
-    console.log(e.target);
+    //console.log(e.target);
     if(e.target.matches(".normal")){  
         //Encriptar
         if($normal.value!==""){
@@ -23,7 +23,7 @@ d.addEventListener("click",(e)=>{
             $normal.placeholder="ingrese el texto aquí"; 
             $result.innerHTML=`Ups, parece que no ha ingresado texto!...`;
         }
-    }else{
+    }else if(e.target.matches(".crypto")){
         //Desencriptar
         if($unenc.value!==""){
             var frase = $unenc.value.toLowerCase();
@@ -42,5 +42,7 @@ d.addEventListener("click",(e)=>{
             
         }
         
+    }else{
+        console.log(e.target);
     }
 });
