@@ -22,6 +22,9 @@ d.addEventListener("click",(e)=>{
         }else{
             $normal.placeholder="ingrese el texto aquí"; 
             $result.innerHTML=`Ups, parece que no ha ingresado texto!...`;
+            setTimeout(e=>{
+                $result.innerHTML=``;
+            },2000);
         }
     }else if(e.target.matches(".crypto")){
         //Desencriptar
@@ -38,6 +41,9 @@ d.addEventListener("click",(e)=>{
         }else{
             $unenc.placeholder="ingrese el texto aquí";
             $result.innerHTML=`Ups, parece que no ha ingresado texto!...`;
+            setTimeout(e=>{
+                $result.innerHTML=``;
+            },2000);
             
             
         }
