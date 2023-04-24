@@ -6,7 +6,7 @@ const $result = d.querySelector(".result");
 
 d.addEventListener("click",(e)=>{
     //e.preventDefault();
-    //console.log(e.target);
+    console.log(e.target);
     if(e.target.matches(".normal")){  
         //Encriptar
         if($normal.value!==""){
@@ -20,7 +20,7 @@ d.addEventListener("click",(e)=>{
         $normal.value="";   
         $result.innerHTML=`Texto cifrado con éxito!<br>Pulse aqui para copiar el texto`;
         }else{
-            $normal.placeholder="ingrese el texto aquí"; 
+            $normal.placeholder="ingrese el texto aquí para encriptarlo"; 
             $result.innerHTML=`Ups, parece que no ha ingresado texto!...`;
             setTimeout(e=>{
                 $result.innerHTML=``;
@@ -39,7 +39,7 @@ d.addEventListener("click",(e)=>{
             $unenc.value="";
             $result.innerHTML=`Texto cifrado con éxito!<br>Pulse aqui para copiar el texto`;
         }else{
-            $unenc.placeholder="ingrese el texto aquí";
+            $unenc.placeholder="ingrese el texto aquí para desencriptarlo";
             $result.innerHTML=`Ups, parece que no ha ingresado texto!...`;
             setTimeout(e=>{
                 $result.innerHTML=``;
