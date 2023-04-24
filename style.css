@@ -90,6 +90,9 @@ body{
     text-align: center;
     align-items: center;
     background: url(./assets/img-encriptador/stock-photo-wrinkled-paper.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
 }
 
 footer{
