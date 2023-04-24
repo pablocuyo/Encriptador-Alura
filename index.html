@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Encriptador Enigma</title>  
+</head>
+<body>
+    <header>
+        <div class="header-img"><img src="assets/img-encriptador/enigma-sinfondo.png" alt=""></div>
+        <div class="h-title">Maquina Enigma</div>
+        </header>
+    <main>
+        <section class="encript-area">
+        <div class="message enc">
+            <div class="text-container "><textarea name="" id="enc" cols="30" rows="10"></textarea></div>
+            <div class="button-container"><button type="submit" name="" class="encrypt-button normal">Encriptar</button></div>   
+        </div>
+        <div class="message unenc">
+            <div class="text-container"><textarea name="" id="unenc" cols="30" rows="10"></textarea></div>
+            <div class="button-container"><button type="submit" name="" class="encrypt-button crypto">Desencriptar</button></div>   
+        </div>     
+        <div class="result-container"><div class="result"></div></div>
+        </section>
+        
+    </main>
+    <footer>
+        <ul>
+            <li><a href="">Copyright Pablo Cugini.</a></li>
+            <li><a href="">Todos los derechos reservados.</a></li>
+            <li><a href="">Terminos y condiciones de uso.</a></li>
+        </ul>
+    </footer>
+    <script src="encriptador.js"></script>
+</body>
+</html> 
