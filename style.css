@@ -83,8 +83,9 @@ body{
     align-items: center;
 }
 .result{
-    font-size:30px ;
+    font-size:25px ;
     font-weight: bold;
+    color: rgb(27, 27, 107);
     margin: 0 auto;
     border-radius: 7px;
     width: 30%;
@@ -97,12 +98,12 @@ body{
     background: url(./assets/img-encriptador/stock-photo-wrinkled-paper.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+    transition:all .5 ease-out;
     
 }
 .copy{
-    width: 30%;
-    height: 100px;
-    background-color:red ;
+    
+    
 }
 
 footer{
@@ -159,4 +160,13 @@ footer ul li a{
     }
     
     
+}
+@media screen and (max-height: 520px){
+    /* .text-container{
+        height: 100px;
+        
+    } */
+    header{
+        background-color: red;
+    }
 }

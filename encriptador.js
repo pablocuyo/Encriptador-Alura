@@ -18,7 +18,11 @@ d.addEventListener("click",(e)=>{
         textoCifrado = textoCifrado.replace(/u/img, "ufat");
         $unenc.value =textoCifrado;
         $normal.value="";   
-        $result.innerHTML=`Texto cifrado con éxito!<br>Pulse aqui para copiar el texto`;
+        $result.innerHTML=`Texto encriptado con éxito!`;
+        setTimeout(e=>{
+            $result.classList.add("copy");
+            $result.innerHTML=`Pulse aqui para copiar el mensaje!`;
+        },1500);
         }else{
             $normal.placeholder="ingrese el texto aquí para encriptarlo"; 
             $result.innerHTML=`Ups, parece que no ha ingresado texto!...`;
@@ -37,7 +41,11 @@ d.addEventListener("click",(e)=>{
             textoCifrado = textoCifrado.replace(/ufat/img, "u");
             $normal.value =textoCifrado;
             $unenc.value="";
-            $result.innerHTML=`Texto cifrado con éxito!<br>Pulse aqui para copiar el texto`;
+            $result.innerHTML=`Texto desencriptado con éxito!`;
+            setTimeout(e=>{
+                $result.classList.add("copy");
+                $result.innerHTML=`Pulse aqui para copiar el mensaje!`;
+            },1500);
         }else{
             $unenc.placeholder="ingrese el texto aquí para desencriptarlo";
             $result.innerHTML=`Ups, parece que no ha ingresado texto!...`;
@@ -60,6 +68,11 @@ d.addEventListener("click",(e)=>{
         navigator.clipboard.writeText(copied)
         .then(() => {
             console.log('Text copied to clipboard');
+            $result.classList.remove("copy");
+            $result.innerHTML=`Ya tiene el mensaje!<br>Cuidado, que no caiga en manos equivocadas!`;
+            setTimeout(e=>{
+                $result.innerHTML=``;
+            },2000);
         })
         .catch(err => {
             console.error('Error in copying text: ', err);
@@ -70,11 +83,17 @@ d.addEventListener("click",(e)=>{
         navigator.clipboard.writeText(copied)
         .then(() => {
             console.log('Text copied to clipboard');
+            $result.classList.remove("copy");
+            $result.innerHTML=`Ya tiene el mensaje!<br>Cuidado, que no caiga en manos equivocadas!`;
+            setTimeout(e=>{
+                $result.innerHTML=``;
+            },2000);
         })
         .catch(err => {
             console.error('Error in copying text: ', err);
         });
        }
     }
+
 
 });
