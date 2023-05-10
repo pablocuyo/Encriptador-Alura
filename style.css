@@ -136,6 +136,9 @@ footer ul li a{
         background-repeat: no-repeat;
         width: 100%;
     }
+    .message{
+        height:25%;
+    }
     
     .text-container textarea{
         height: 70%;
@@ -161,12 +164,4 @@ footer ul li a{
     
     
 }
-@media screen and (max-height: 520px){
-    /* .text-container{
-        height: 100px;
-        
-    } */
-    header{
-        background-color: red;
-    }
-}
+
