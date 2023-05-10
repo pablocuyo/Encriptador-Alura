@@ -69,7 +69,7 @@ d.addEventListener("click",(e)=>{
         .then(() => {
             console.log('Text copied to clipboard');
             $result.classList.remove("copy");
-            $result.innerHTML=`Ya tiene el mensaje!<br>Cuidado, que no caiga en manos equivocadas!`;
+            $result.innerHTML=`Ya tiene el mensaje!`;
             setTimeout(e=>{
                 $result.innerHTML=``;
             },2000);
@@ -84,7 +84,7 @@ d.addEventListener("click",(e)=>{
         .then(() => {
             console.log('Text copied to clipboard');
             $result.classList.remove("copy");
-            $result.innerHTML=`Ya tiene el mensaje!<br>Cuidado, que no caiga en manos equivocadas!`;
+            $result.innerHTML=`Ya tiene el mensaje!`;
             setTimeout(e=>{
                 $result.innerHTML=``;
             },2000);
