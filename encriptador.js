@@ -6,7 +6,7 @@ const $result = d.querySelector(".result");
 
 d.addEventListener("click",(e)=>{
     //e.preventDefault();
-    console.log(e.target);
+    //console.log(e.target);
     if(e.target.matches(".normal")){  
         //Encriptar
         if($normal.value!==""){
@@ -49,6 +49,32 @@ d.addEventListener("click",(e)=>{
         }
         
     }else{
-        console.log(e.target);
+        //console.log(e.target);
     }
+});
+d.addEventListener("click",(e)=>{
+    
+    if(e.target.matches(".copy")){
+       if($unenc.value!=="" && $normal.value===""){
+        let copied=$unenc.value;
+        navigator.clipboard.writeText(copied)
+        .then(() => {
+            console.log('Text copied to clipboard');
+        })
+        .catch(err => {
+            console.error('Error in copying text: ', err);
+        });
+       }
+       if($unenc.value==="" && $normal.value!==""){
+        let copied=$normal.value;
+        navigator.clipboard.writeText(copied)
+        .then(() => {
+            console.log('Text copied to clipboard');
+        })
+        .catch(err => {
+            console.error('Error in copying text: ', err);
+        });
+       }
+    }
+
 });
