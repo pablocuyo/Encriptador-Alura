@@ -3,10 +3,10 @@
 
 Este es un proyecto de caracter academico para el programa de ***Oracle-Alura G5***.
 
-Para poder llevar a cabo este proyecto se utilizaron las siguientes herramientas digitales
-*_HTML5
-*_CSS3
-*_JavaScript
+>Para poder llevar a cabo este proyecto se utilizaron las siguientes herramientas digitales
+>>*_HTML5
+>>*_CSS3
+>>*_JavaScript
 
 Es un sitio estático maquetado y con estílo. Siendo que el desafio del proyecto era realizar un encriptador me inspiré en la antigua y renombrada _Maquina Enigma_.
 
