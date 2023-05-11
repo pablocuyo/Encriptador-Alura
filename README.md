@@ -27,5 +27,5 @@ Una vez encriptado o desencriptado el texto, se notificará en el recuadro infer
 
 ***
 Puede usar las funcionalidades del sitio por a su diseño responsivo gracias a implementaciones de CSS.
-![Encriptador](assets/readme-imgs/image-removebg-preview.jpg)
+![Encriptador](assets/readme-imgs/image-removebg-preview.png)
 
