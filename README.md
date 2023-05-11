@@ -22,6 +22,7 @@ Uno puede encriptar o desencriptar mensajes de texto, para ello debera colocar e
 
 _Es importante mencionar que el texto de resultado sera en minusculas y que no son admitidos los caracteres especiales ni numeros._
 
-
+Una vez encriptado o desencriptado el texto, se notificará en el recuadro inferior el cual lo habilitará a copiar el texto al portapapeles y usarlo donde prefiera.
+![Encriptador](assets/readme-imgs/result.jpg)
 
 
