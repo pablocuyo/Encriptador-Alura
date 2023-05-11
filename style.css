@@ -102,7 +102,8 @@ body{
     
 }
 .copy{
-    
+
+    color:red;
     
 }
 
@@ -130,14 +131,18 @@ footer ul li a{
     .encript-area{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        /* justify-content: center; */
         align-items: center;
         background: url(./assets/img-encriptador/imagen-1.jpg);
         background-repeat: no-repeat;
         width: 100%;
     }
     .message{
-        height:25%;
+        height:25%; 
+        
+    } 
+    .enc{
+        margin-top: 50px;     
     }
     
     .text-container textarea{
@@ -149,6 +154,8 @@ footer ul li a{
         height: 30px;
         width: 120px;
         font-size: 15px;
+        
+        
     }
     .message{
         background-image: none;
@@ -159,7 +166,19 @@ footer ul li a{
         border-radius: 5px;
         min-width: 200px;
         max-height: 100px;
+        font-size: 15px;
+        margin-top: 30px;
         
+    }
+    .button-container{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    footer{
+        padding: 10px;
+    }
+    footer li{
+        text-align: center;    
     }
     
     
