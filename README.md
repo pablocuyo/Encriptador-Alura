@@ -17,7 +17,9 @@ Para darle la utilidad solicitada se le dio comportamiento mediante el uso del D
 Su uso es simple:
 
 Uno puede encriptar o desencriptar mensajes de texto, para ello debera colocar el texto en el recuadro que corresponda, el de la izquierda es para encriptar y el de la derecha es para desencriptar, como puede revelarlo cada botón.
-<assets/readme-imgs/ful-screen.jpg>
+
+![Encriptador](assets/readme-imgs/ful-screen.jpg)
+
 _Es importante mencionar que el texto de resultado sera en minusculas y que no son admitidos los caracteres especiales ni numeros._
 
 
