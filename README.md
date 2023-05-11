@@ -1,4 +1,4 @@
-#Encriptador Alura
+# Encriptador Alura challenge
 ***
 
 Este es un proyecto de caracter academico para el programa de ***Oracle-Alura G5***.
