@@ -25,4 +25,7 @@ _Es importante mencionar que el texto de resultado sera en minusculas y que no s
 Una vez encriptado o desencriptado el texto, se notificará en el recuadro inferior el cual lo habilitará a copiar el texto al portapapeles y usarlo donde prefiera.
 ![Encriptador](assets/readme-imgs/result.jpg)
 
+***
+Puede usar las funcionalidades del sitio por a su diseño responsivo gracias a implementaciones de CSS.
+![Encriptador](assets/readme-imgs/image-removebg-preview.jpg)
 
